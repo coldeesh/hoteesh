@@ -21,7 +21,7 @@ body {
 }
 
 .header_text {
-    font-family: 'cursive';
+    font-family: 'Cursive';
     font-size: 50px;
     font-weight: bold;
     color: white;
@@ -58,7 +58,7 @@ body {
     background-color: #FAF9F6;
 }
 #demo {
-    font-family: 'Nunito';
+    font-family: 'Cursive';
     font-size: 30px;
     font-weight: bold;
     color: white;
