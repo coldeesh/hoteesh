@@ -6,27 +6,22 @@ body {
     background-color: #F8C8DC;
 }
 
-.headertext {
+#demo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     font-family: 'Cursive';
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    padding: 20px;
 }
 
-.gifcontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 0px;
-}
-
-#demo {
+.header_text {
     font-family: 'Cursive';
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
     text-align: center;
@@ -47,13 +42,13 @@ body {
     position: absolute;
     margin-left: 150px;
     transition: 0.5s;
-    / Smooth movement /
+    /* Smooth movement */
 }
 
 #yesButton {
     position: absolute;
     margin-right: 150px;
-    / Smooth movement /
+    /* Smooth movement */
 }
 
 .btn {
@@ -72,4 +67,11 @@ body {
 
 .btn:hover {
     background-color: #FAF9F6;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
 }
